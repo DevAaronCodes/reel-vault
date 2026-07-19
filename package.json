@@ -1,0 +1,30 @@
+{
+  "name": "movie-shelf",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MovieShelf personal movie collection MVP.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "npm --workspace client run dev",
+    "dev:server": "npm --workspace server run dev",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "npm --workspace client run build",
+    "build:server": "npm --workspace server run build",
+    "start": "npm --workspace server run start",
+    "typecheck": "npm run typecheck:client && npm run typecheck:server",
+    "typecheck:client": "npm --workspace client run typecheck",
+    "typecheck:server": "npm --workspace server run typecheck",
+    "test:api": "node scripts/run-api-tests.mjs"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "wait-on": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
