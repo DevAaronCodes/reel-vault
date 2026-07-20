@@ -1,5 +1,5 @@
 {
-  "name": "@movie-shelf/client",
+  "name": "@reel-vault/client",
   "version": "0.1.0",
   "private": true,
   "type": "module",

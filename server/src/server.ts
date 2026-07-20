@@ -14,5 +14,5 @@ if (process.env.NODE_ENV === 'production' && !process.env.TMDB_API_TOKEN) {
 const app = createApp();
 
 app.listen(port, () => {
-  console.log(`MovieShelf server listening on port ${port}`);
+  console.log(`ReelVault server listening on port ${port}`);
 });

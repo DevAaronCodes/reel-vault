@@ -1,8 +1,8 @@
 {
-  "name": "movie-shelf",
+  "name": "reel-vault",
   "version": "0.1.0",
   "private": true,
-  "description": "MovieShelf personal movie collection MVP.",
+  "description": "ReelVault personal movie collection MVP.",
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:client": "npm --workspace client run dev",
