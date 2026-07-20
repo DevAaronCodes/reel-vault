@@ -6,7 +6,7 @@ import requests
 
 @pytest.fixture(scope="session")
 def api_base_url():
-    return os.environ.get("API_BASE_URL", "http://localhost:3001")
+    return os.environ.get("API_BASE_URL", "http://localhost:3000")
 
 
 @pytest.fixture()
