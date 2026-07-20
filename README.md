@@ -2,7 +2,7 @@
 
 ReelVault is a clean Vue 3 and Express MVP for managing a personal movie collection. The browser searches movies through the application API, the Express server securely talks to TMDB, and the saved collection stays in browser `localStorage`.
 
-Live app: [https://movie-shelfserver-production.up.railway.app/](https://movie-shelfserver-production.up.railway.app/)
+Live app: [reelvaultserver-production.up.railway.app](reelvaultserver-production.up.railway.app)
 
 ## Screenshots
 
